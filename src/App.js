@@ -1,11 +1,15 @@
 
-
 import List from './components/List';
-
+import Navbar from './Navbar';
+import Home from './Home';
 function App() {
   return (
-    <div className="App"> 
-      <h1>one week project</h1>
+    <div className="App">
+      <Navbar> </Navbar>
+      <div className="content">
+        <Home />
+      </div>
+
       <List />
     </div>
   );
