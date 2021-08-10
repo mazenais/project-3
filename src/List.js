@@ -28,14 +28,14 @@ const List = () => {
         console.log('e :>> ', e.target.value);
         setInput(e.target.value)
     }
-    // function onChange(e) {
-    //     console.log('e :>> ', e);
-    // }
+    function onChange(e) {
+        console.log('e :>> ', e);
+    }
 
     const addToData = () => {
-        // const newArr = data
-        // newArr.push(input)
-        // console.log('newArr :>> ', newArr);
+        const newArr = data
+        newArr.push(input)
+        console.log('newArr :>> ', newArr);
         setData([...data, input])
 
 
